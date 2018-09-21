@@ -1,0 +1,6 @@
+- name: Jenkins Installation
+  hosts: localhost
+  connection: local
+  tasks:
+      - include_role:
+           name: jenkins_installation

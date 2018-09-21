@@ -1,0 +1,7 @@
+---
+- name: Provision a vm using ARM template
+  hosts: localhost
+  connection: local
+  tasks:
+      - include_role:
+           name: docker_installation_ubuntu
